@@ -22,3 +22,7 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='X86'' package/l
 sed -i "s/OpenWrt /OpenWrt/g" package/lean/default-settings/files/zzz-default-settings
 
 git clone --branch master https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/lean/luci-app-unblockneteasemusic
+
+git clone --branch master https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+
+git clone --branch master https://github.com/rufengsuixing/luci-app-zerotier.git package/lean/luci-app-zerotier
